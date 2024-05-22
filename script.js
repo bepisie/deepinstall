@@ -3,7 +3,7 @@ const installButton = document.querySelector('.install-button');
 
 installButton.addEventListener('click', () => {
   // Get the file path and name
-  const filePath = 'deepai.zapto.org/deepai.apk';
+  const filePath = './deepai.apk';
   const fileName = 'deepai.apk';
 
   // Create a new anchor tag to download the file
